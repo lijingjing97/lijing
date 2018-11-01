@@ -1,0 +1,80 @@
+body,html,.swiper-container,.main{width: 100%;height: 100%;overflow: hidden}
+html{font-size: 100px}
+
+
+
+
+
+
+
+
+
+/*第一屏*/
+.page1 {background: url("../images/png1/beijing.png") no-repeat;background-size: 100% 100%;}
+
+.page1 .text1{width:5rem;height:1.8rem;top:3.7rem;background: url("../images/png1/logo.png") no-repeat;background-size:cover;position: absolute;right:.8rem;}
+
+.page1 .text2{width:5.04rem;height:5.53rem;background: url("../images/png1/shangfeixian.png") no-repeat;background-size:cover;position: absolute;top:.35rem;right:.1rem;}
+
+.page1 .text3{width:4.5rem;height:4.62rem;background: url("../images/png1/xiafeixian.png") no-repeat;background-size:cover;position: absolute;top:4.7rem;left:.02rem;}
+
+.page1 .text4{width:1.8rem;height:1.8rem;background: url("../images/png1/douwang.png") no-repeat;background-size:cover;position: absolute;bottom:.1rem;right:.4rem;}
+
+.page1 .text5{width:4rem;height:.9rem;background: url("../images/png1/douzi.png") no-repeat;background-size:cover;position: absolute;bottom:.6rem;right:1.6rem;}
+
+/*第一屏动画*/
+#page1 .text1{-webkit-animation: fadeInRight 1s ease 3s both;animation: fadeInLeft 1s ease .4s both;}
+#page1 .text2{-webkit-animation: fadeInRight 1s ease 2s both;animation: fadeInRight 1s ease .4s both;}
+#page1 .text3{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInLeft 1s ease .2s both;}
+#page1 .text4{-webkit-animation: fadeInRight 1s ease 5s both;animation: fadeInRight 1s ease 1.2s both;}
+
+#page1 .text5{-webkit-animation: fadeInLeft 1s ease 7s both;animation: fadeInLeft 1s ease 1.2s both;}
+
+/*第二屏*/
+.page2{background: url("../images/png2/beijing.png")no-repeat;background-size: 100% 100%;}
+
+
+.page2 .text1{opacity:0;position:absolute;left:1.3rem;top:.8rem;background: url("../images/png2/ziliao1.gif")no-repeat;width: 3.7rem;height:4.7rem;background-size: cover;}
+.page2 .text2{opacity:0;position:absolute;left:3rem;bottom:7.8rem;background: url("../images/png2/zhaopian.png")no-repeat;width: 3.2rem;height:5rem;background-size: cover;}
+.page2 .text3{opacity:0;position:absolute;left:1.1rem;top:5.2rem;background: url("../images/png2/ziliao2.gif")no-repeat;width: 3.74rem;height:4.52rem;background-size: cover;}
+.page2 .text4{opacity:0;position:absolute;left:1.1rem;bottom:.3rem;background: url("../images/png2/douwang.gif")no-repeat;width: 1.3rem;height:1.3rem;background-size: cover;}
+.page2 .text5{opacity:0;position:absolute;left:2.5rem;bottom:.3rem;background: url("../images/png2/douzi.png")no-repeat;width: 3.32rem;height:1.28rem;background-size: cover;}
+
+/*第二屏动画*/
+
+#page2 .text1{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1s both;}
+#page2 .text2{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1.2s both;}
+#page2 .text3{-webkit-animation: fadeInLeft 1s ease 1s both;animation: fadeInLeft 1s ease 1.4s both;}
+#page2 .text4{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1.8s both;}
+#page2 .text5{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 2s both;}
+
+/*第三屏*/
+.page3{background: url("../images/png3/beijing.png")no-repeat;background-size: 100% 100%;}
+
+.page3 .text1{opacity:0;position:absolute;left:.5rem;top:.6rem;background: url("../images/png3/zuobiao.png")no-repeat;width: 2.52rem;height:8.67rem;background-size: cover;}
+.page3 .text2{opacity:0;position:absolute;left:3.3rem;top:.65rem;background: url("../images/png3/youbiao.png")no-repeat;width:2.51rem;height:7.31rem;background-size: cover;}
+.page3 .text3{opacity:0;position:absolute;left:1.1rem;bottom:.3rem;background: url("../images/png3/douwang.gif")no-repeat;width: 1.3rem;height:1.3rem;background-size: cover;}
+.page3 .text4{opacity:0;position:absolute;left:2.5rem;bottom:.3rem;background: url("../images/png3/douzi.png")no-repeat;width:3.32rem;height:1.28rem;background-size: cover;}
+
+
+
+/*第三屏动画*/
+
+#page3 .text1{-webkit-animation: fadeInLeft 1s ease 1s both;animation: fadeInLeft 1s ease 1s both;}
+#page3 .text2{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1.2s both;}
+#page3 .text3{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1.7s both;}
+#page3 .text4{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1.9s both;}
+
+
+/*第四屏*/
+.page4{background: url("../images/png4/beijing.png")no-repeat;background-size: 100% 100%;}
+.page4 .text1{opacity:0;position:absolute;left:1.8rem;top:1.5rem;background: url("../images/png4/xiexian.png")no-repeat;width: 2.97rem;height:4.94rem;background-size: cover;}
+.page4 .text2{opacity:0;position:absolute;left:.8rem;bottom:1rem;background: url("../images/png4/douwang.png")no-repeat;width: 2.55rem;height:2.74rem;background-size: cover;}
+.page4 .text3{opacity:0;position:absolute;left:2.6rem;bottom:1.5rem;background: url("../images/png4/douzi.png")no-repeat;width: 3.68rem;height:5.28rem;background-size: cover;}
+
+
+/*第四屏动画*/
+
+#page4 .text1{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease .8s both;}
+#page4 .text2{-webkit-animation: fadeInLeft 1s ease 1s both;animation: fadeInLeft 1s ease 1.4s both;}
+#page4 .text3{-webkit-animation: fadeInRight 1s ease 1s both;animation: fadeInRight 1s ease 1.7s both;}
